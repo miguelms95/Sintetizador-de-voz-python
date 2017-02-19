@@ -10,7 +10,7 @@ def habla(texto):
 
 habla("Que quieres que te diga?")
 while(1):
-    frase_decir = raw_input("\n--> ")
+    frase_decir = raw_input("--> ")
     if (frase_decir == "exit"):
         exit(0)
     habla(frase_decir)
