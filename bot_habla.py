@@ -1,7 +1,7 @@
 import pyttsx
 
 engine = pyttsx.init()
-engine.setProperty('rate', 130)
+engine.setProperty('rate', 130)    # Aquí puedes seleccionar la velocidad de la voz
 engine.setProperty('voice', 'spanish')
 
 def habla(texto):
