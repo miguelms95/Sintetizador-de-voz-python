@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pyttsx
 
 engine = pyttsx.init()
